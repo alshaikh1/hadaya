@@ -1,0 +1,157 @@
+body, * {font-family: 'Tajawal', sans-serif;}
+
+body {direction:rtl}
+#testimonials, #case, #support {direction:ltr;}
+/** ADD YOUR AWESOME CODES HERE **/
+
+.first-section {
+	background-image:url('../images/parallax_12.jpg');
+	/*background:url('../images/slider-bg.jpg') no-repeat;
+	background-position: 20% center;
+	background-size: auto;*/	
+	margin-bottom: 30px;
+}
+
+body.seo_version .first-section h2, .first-section .lead {color:#8A83E6}
+.topnavbar {background: #ccc; padding: 3px 10px;overflow:hidden;}
+
+.contentbox {
+	margin-top: 200px;
+	margin-bottom: 50px;
+}
+
+.main { padding: 200px 0px 0px 0px;}
+
+.buybtn {
+	margin-top: 25px;
+    padding-bottom: 30px;
+}
+
+.footer-links li {padding-bottom:0;}
+body.seo_version .copyrights {padding:15px 0;}
+.productslist {margin-bottom: 25px; }
+
+
+#map {
+        height: 250px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+}
+
+/*
+body.seo_version .first-section h2, .big-tagline p.lead {color:#8A83E3;}
+.big-tagline .btn-light.ban-btn {background: #634C9E !important}
+*/
+
+.header_style_01 {background: #FBFAFB}
+.header_style_01 .navbar-default .navbar-nav > li a {color:#3563AD}
+.header_style_01 .navbar-default .navbar-nav > li a.active, .header_style_01 .navbar-default .navbar-nav > li a:hover {background-color: #9897DD;}
+
+body.seo_version .lead strong, body.seo_version .icon-wrapper:hover a, body.seo_version a:hover, body.seo_version a:focus {color:#9897DD;}
+
+.padd15 {padding:0 15px 15px 0;}
+.padding15 {padding:15px;}
+.error {color:#aa0000}
+/*.contact_form .form-control {margin-bottom:15px;}*/
+.row.padd15 {margin-right:0; margin-left:0}
+.martop15 {margin-top:15px;}
+body.seo_version .app_iphone_02 {left:0% !important}
+
+
+body.seo_version .big-tagline .btn-light.ban-btn.addbtn {background:#3563AD}
+body.seo_version .big-tagline .ban-btn.ban-btn.srchbtn {background:#B160A3}
+
+body.seo_version .cac, 
+body.seo_version .btn-buy,
+body.seo_version .btn-buy .icon_wrap {
+	background:#4BCAEB;
+}
+
+body.seo_version .cac:hover, 
+body.seo_version .icon_wrap, 
+body.seo_version .btn-buy:hover,
+body.seo_version .icon_wrap:hover,
+body.seo_version .grd1 {
+	background:#3563AD;
+}
+
+body.seo_version .stat-wrap p, 
+body.seo_version .testimonial h3,
+body.seo_version .testimonial h3 i
+{color:#3563AD}
+
+body.seo_version .desc {background:#FBFAFB}
+
+body.seo_version .message-box h2, body.seo_version .section .section-title h3 {color:#3563AD}
+
+.footer .widget-title h3 {color:#685281}
+
+
+.contact_form .list-group {margin-bottom:10px; text-align:right;}
+.list-group-item>.badge {float:left}
+.list-group h4 {padding:0;}
+.list-group-item {padding:15px;}
+.pricing-table {padding:20px;}
+.pricing-table-text {border-bottom:0}
+th {text-align:right}
+.clearboth {clear:both}
+.tab-pane {padding-top:25px;}
+.nav-tabs>li {float:right}
+.contact_form .form-control {height:45px !important}
+
+.howto .row {margin-top: 20px; margin-bottom:20px; box-radius: 5px; padding: 25px;}
+.howto .row:nth-child(odd) {background: #f7f7f7;}
+.howto .row:last-child {background:#fff;}
+.howto .stepnumber {
+	color:#685281;
+	font-size: 65px;
+	opacity: .7;
+}
+.howto .row a {margin:0 auto; width: 50%;}
+.howto .row img {box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1); margin:0 auto;}
+
+
+.checkbox input[type=checkbox] { position: relative; margin-left:0;}
+.section-title p.lead {direction:rtl;}
+.pagination {direction:rtl; margin: 0 auto;}
+.pagination>li {float:right;}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+	background:#BAC63E; border-color:#BAC63E;
+}
+.pagination>li:first-child>a, .pagination>li:first-child>span {
+    margin-left: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+	border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.pagination>li:last-child>a, .pagination>li:last-child>span {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+	border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.post-media img {width:80%; margin: 0 auto;}
+.modalimg img {margin: 0 auto;}
+
+.social-md li a.fb:hover {background:#3b579d}
+body.seo_version .footer a:hover {color:#B160A3}
+
+body.seo_version .seo-services img {padding:5px}
+.greencolor {color:#B160A3}
+h4.modal-title {position: static; padding:0;}
+.testi-meta {font-size:25px; text-align: center; direction:rtl; margin-top:0;}
+.testimonials .section-title {margin-bottom:20px;}
+
+@media (max-width: 768px) {
+	.productslist {margin-bottom: 20px;}
+	.service-widget {padding:0 15px;}
+	body.seo_version .btn-light.ban-btn {width:100%;margin-bottom:10px;}
+	.first-section {background: none;}
+}
+@media (min-width: 768px) {
+	.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 { float:right;}
+	form .service-widget {min-height:412px; max-height:412px;}
+	.navbar-header {float:right}
+	.navbar-nav>li {float: right; margin-right:10px;}	
+}
